@@ -61,3 +61,11 @@ class TestVolumeCilindrico(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+def convert_to_numeric(score):
+    """
+    Converte a pontuação para um tipo numérico.
+    """
+    converted_score = int(score)
+    return converted_score
