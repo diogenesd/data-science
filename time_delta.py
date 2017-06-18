@@ -47,6 +47,32 @@ Bem-vindo ao Python3!
 print(snake_string * how_many_snakes)
 
 
+def hours2days(time_hour):
+    """ this function transform o time in days.
+
+        Função hours2days que tenha um argumento, um número inteiro,
+        que é um período de tempo em horas.
+        A função deve retornar uma tupla de quanto tempo esse período
+        é em dias e horas, sendo as horas
+        o restante que não pode ser expresso em dias.
+
+        Args:
+            time_hour (int): tempo em horas.
+
+        Returns:
+           tupla: função retorna uma tupla de quanto tempo
+           esse período é em dias e horas.
+
+        """
+    assert time_hour > 0
+    return time_hour // 24, time_hour % 24
+
+
+print(hours2days(24))
+print(hours2days(25))
+print(hours2days(10000))
+
+
 class TestVolumeCilindrico(unittest.TestCase):
     ''' It's internal class for unit test.'''
 

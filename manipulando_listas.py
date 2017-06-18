@@ -168,6 +168,27 @@ def starbox(width, height):
 
 starbox(6, 6)
 
+
+def box(width, height, symbol="*"):
+    """Imprimir uma caixa composta de asteriscos, ou algum outro caractere.
+
+    width: Largura da caixa em caracteres, deve ser pelo menos 2
+    height: Altura da caixa em linhas, deve ser pelo menos 2
+    symbol: Uma única sequência de caracteres usada para
+    desenhar as bordas da caixa
+    """
+    print(symbol * width)  # imprimir borda superior da caixa
+
+    # print sides of box
+    for _ in range(height - 2):
+        print(symbol + " " * (width - 2) + symbol)
+
+    print(symbol * width)  # imprimir borda inferior da caixa
+
+
+box(5, 5)
+box(5, 5, "$")
+
 # BlackJack
 card_deck = [4, 11, 8, 5, 13, 2, 8, 10]
 hand = []
