@@ -26,27 +26,32 @@ def find_first_link(url):
     soup = bs4.BeautifulSoup(html, "html.parser")
 
     # Esta div contém o corpo principal do artigo
-    content_div = soup.find(id="mw-content-text")
-
+    content_div = soup.find('mw-content-text')  # this is threw error.
     # armazena o primeiro link encontrado no artigo, se o artigo não contém
     # nenhum link, este artigo será None
     article_link = None
 
-    # Para cada descendente direto de content_div existem parágrafos
-    for element in content_div.find_all("p", recursive=False):
-        # Encontra a primeira marcação de âncora que
-        # seja um filho direto de um parágrafo.
-        # É importante olhar apenas para os descendentes
-        # diretos, pois outros tipos de
-        # links, como rodapés e guias de pronunciação,
-        # podem ser apresentados antes
-        # do primeiro link para um artigo. Estes outros
-        # tipos de links, contudo, não
-        # são descendentes diretos, pois estão
-        # em divs de outras classes.
-        if element.find("a", recursive=False):
-            article_link = element.find("a", recursive=False).get('href')
-            break
+    if not content_div:
+        p = soup.find("p")
+        article_link = p.find("a", recursive=False).get('href')
+        print(article_link)
+
+    else:
+        # Para cada descendente direto de content_div existem parágrafos
+        for element in content_div.find_all("p", recursive=False):
+            # Encontra a primeira marcação de
+            # âncora que seja um filho direto de um parágrafo.
+            # É importante olhar apenas para
+            # os descendentes diretos, pois outros tipos de
+            # links, como rodapés e guias de
+            # pronunciação, podem ser apresentados antes
+            # do primeiro link para um artigo.
+            # Estes outros tipos de links, contudo, não
+            # são descendentes diretos, pois
+            # estão em divs de outras classes.
+            if element.find("a", recursive=False):
+                article_link = element.find("a", recursive=False).get('href')
+                break
 
     if not article_link:
         return
@@ -83,6 +88,7 @@ while continue_crawl(article_chain, target_url):
         break
 
     article_chain.append(first_link)
-    # Induz um atraso na busca para não "martelar"
-    # os servidores da Wikipedia com requisições
+
+    # Induz um atraso na busca para não "martelar" os servidores da Wikipedia
+    # com requisições
     time.sleep(2)

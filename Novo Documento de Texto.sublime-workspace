@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"arti",
+				"article_link\tstatement"
+			],
+			[
+				"lis",
+				"lista_ord\tstatement"
+			],
+			[
+				"po",
+				"posicao_menor\tstatement"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"sta",
+				"start_url\tstatement"
+			],
+			[
+				"re",
+				"response\tstatement"
+			],
+			[
+				"dsc",
+				"dcs\tdoc_modulo"
+			],
+			[
+				"ma",
+				"max\tfunction"
+			],
+			[
 				"tri",
 				"Triangulo"
 			],
@@ -28,20 +60,12 @@
 				"pyplot\tmodule"
 			],
 			[
-				"lis",
-				"list\tclass"
-			],
-			[
 				"no",
 				"nomes"
 			],
 			[
 				"stri",
 				"string_return\tstatement"
-			],
-			[
-				"ma",
-				"maiusculas"
 			],
 			[
 				"for",
@@ -90,10 +114,6 @@
 			[
 				"w",
 				"word\tstatement"
-			],
-			[
-				"re",
-				"return\tkeyword"
 			],
 			[
 				"s",
@@ -162,10 +182,6 @@
 			[
 				"cr",
 				"criaMatriz\tfunction"
-			],
-			[
-				"i",
-				"if\tIf Condition"
 			],
 			[
 				"f",
@@ -384,32 +400,12 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/kfus/OneDrive/Documentos/CURSO PYTHON/USP/MODULO 2/triangulos.py",
+			"file": "crawling.py",
 			"settings":
 			{
-				"buffer_size": 4048,
+				"buffer_size": 2877,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/kfus/OneDrive/Documentos/CURSO PYTHON/USP/MODULO 2/menor_nome.py",
-			"settings":
-			{
-				"buffer_size": 1708,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Python 3.6.0 (v3.6.0:41df79263a11, Dec 23 2016, 08:06:12) [MSC v.1900 64 bit (AMD64)] on win32\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n(InteractiveConsole)\n>>> \n>>> \n>>> class Triangulo(object):\n    \"\"\"docstring for Triangulo\"\"\"\n\n    def __init__(self, a, b, c):\n        super(Triangulo, self).__init__()\n        self.a = a\n        self.b = b\n        self.c = c\n... ... >>>   File \"<console>\", line 1\n    def __init__(self, a, b, c):\n    ^\nIndentationError: unexpected indent\n>>>   File \"<console>\", line 1\n    super(Triangulo, self).__init__()\n    ^\nIndentationError: unexpected indent\n>>>   File \"<console>\", line 1\n    self.a = a\n    ^\nIndentationError: unexpected indent\n>>>   File \"<console>\", line 1\n    self.b = b\n    ^\nIndentationError: unexpected indent\n>>>   File \"<console>\", line 1\n    self.c = c\n    ^\nIndentationError: unexpected indent\n>>>",
-			"settings":
-			{
-				"buffer_size": 885,
-				"line_ending": "Windows",
-				"name": "*REPL* [python]",
-				"read_only": true,
-				"scratch": true
 			}
 		}
 	],
@@ -544,11 +540,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/kfus/OneDrive/Documentos/CURSO PYTHON/USP",
-		"/C/Users/kfus/OneDrive/Documentos/CURSO PYTHON/USP/MODULO 2"
+		"/C/Users/kfus/OneDrive/Documentos/CURSO PYTHON/USP/MODULO 2",
+		"/C/Users/kfus/OneDrive/Documentos/DATA SCIENCE"
 	],
 	"file_history":
 	[
+		"/C/Users/kfus/OneDrive/Documentos/CURSO PYTHON/USP/MODULO 2/buscas.py",
+		"/C/Users/kfus/OneDrive/Documentos/DATA SCIENCE/crawling.py",
+		"/C/Users/kfus/OneDrive/Documentos/CURSO PYTHON/USP/MODULO 2/triangulos.py",
 		"/C/Users/kfus/OneDrive/Documentos/DATA SCIENCE/manipulando_arquivos.py",
 		"/C/Users/kfus/OneDrive/Documentos/DATA SCIENCE/time_delta.py",
 		"/C/Users/kfus/OneDrive/Documentos/DATA SCIENCE/manipulando_listas.py",
@@ -666,6 +665,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"\n",
 			"t",
 			"sideC",
 			"sideB",
@@ -758,19 +758,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/kfus/OneDrive/Documentos/CURSO PYTHON/USP/MODULO 2/triangulos.py",
+					"file": "crawling.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4048,
+						"buffer_size": 2877,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2601,
-								2601
+								782,
+								782
 							]
 						],
 						"settings":
@@ -804,324 +804,71 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 429.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/kfus/OneDrive/Documentos/CURSO PYTHON/USP/MODULO 2/menor_nome.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1708,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								936,
-								1382
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 195.0,
+						"translation.y": 293.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 885,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								885,
-								885
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_indent": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"detect_indentation": false,
-							"gutter": false,
-							"history_arrows": true,
-							"indent_subsequent_lines": false,
-							"line_numbers": false,
-							"repl": true,
-							"repl_external_id": "python",
-							"repl_id": "1b1365c7c54c4f8eb4a597db2e066ef0",
-							"repl_restart_args":
-							{
-								"autocomplete_server": true,
-								"cmd":
-								{
-									"linux":
-									[
-										"python",
-										"-u",
-										"${packages}/SublimeREPL/config/Python/ipy_repl.py"
-									],
-									"osx":
-									[
-										"python",
-										"-u",
-										"${packages}/SublimeREPL/config/Python/ipy_repl.py"
-									],
-									"windows":
-									[
-										"python",
-										"-u",
-										"${packages}/SublimeREPL/config/Python/ipy_repl.py"
-									]
-								},
-								"cwd": "$file_path",
-								"encoding": "utf8",
-								"extend_env":
-								{
-									"PYTHONIOENCODING": "utf-8",
-									"SUBLIMEREPL_EDITOR": "\"python\""
-								},
-								"external_id": "python",
-								"syntax": "Packages/Python/Python.tmLanguage",
-								"type": "subprocess"
-							},
-							"repl_sublime2": false,
-							"smart_indent": false,
-							"spell_check": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1160,7 +907,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 188.0
+		"height": 238.0
 	},
 	"output.find_results":
 	{
@@ -1212,7 +959,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 232.0,
+	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
